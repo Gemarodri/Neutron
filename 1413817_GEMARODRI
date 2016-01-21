@@ -1,1 +1,16 @@
-{"Launchpad":"https://bugs.launchpad.net/bugs/1413817","Id":"1413817","Gerrit":"https://review.openstack.org/174384","IdGerrit":"174384","IdCommit":"a3a35ff36f60b5bfb04f3bb16523b9031e9ded2f","Files":["neutron_lbaas/db/loadbalancer/loadbalancer_db.py","neutron_lbaas/tests/unit/db/loadbalancer/test_db_loadbalancer.py"],"Lines_Inseted":25,"Lines_Deleted":0,"CommitParent":"30842f7776b22b62dc5e737a444c3632b5335ff2","Classification":"Bug","KeywordsTitle":"Deleting, removes","Description":"delete, removed, ","KeywordsCommit":"Prevent deletion, adds a check, prevent, ","Comments":"It's a bug report,  because the deletion of the subnet wasn't done correctly."}
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1413817",
+  "Id": "1413817",
+  "Gerrit": " https://review.openstack.org/174268",
+  "IdGerrit": "174268",
+  "IdCommit": "5f28762ae2a96b8062628d0cac81f5da94c6ed34",
+  "Files": "neutron/callbacks/resources.py,neutron/common/exceptions.py,neutron/db/db_base_plugin_v2.py,\tneutron/plugins/ml2/plugin.py,\tneutron/plugins/opencontrail/contrail_plugin.py,neutron/tests/unit/db/test_db_base_plugin_v2.py",
+  "Lines_Inseted": "30",
+  "Lines_Deleted": "1",
+  "CommitParent": "2921d3c686b5f5cd68d51f906766983f975b1cf2",
+  "Classification": "Bug",
+  "KeywordsTitle": "Deleting, removes",
+  "Description": "delete, removed, ",
+  "KeywordsCommit": "Prevent deletion, adds a check, prevent, ",
+  "Comments": "It's a bug report,  because the deletion of the subnet wasn't done correctly."
+}
